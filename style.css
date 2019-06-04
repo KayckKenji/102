@@ -30,7 +30,7 @@ nav a:hover{
 }
 header{
     width: 100%;
-    height: 160px;
+    height: 146px;
     color: blueviolet;
     background-image: url(imagens/beluga.jpg);
     background-size: cover;
@@ -43,4 +43,40 @@ header h1{
     margin-top: 60;
     color: whitesmoke;
 
+}
+section{
+    background-color: white;
+    height: 447px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section div{
+width: 200px;
+height: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+border: 2px solid aquamarine;
+margin-top: 20px;
+justify-content: space-around;
+}
+section div input{
+    border-radius: 8px;
+    text-align: center;
+}
+section div input::placeholder{
+color: lightgray;
+font-size: 10pt;
+}
+section div input:focus{
+background-color: rgb(73, 100, 122);
+}
+section div button{
+    border: none;
+    background-color:rgb(188, 195, 207);
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
 }
