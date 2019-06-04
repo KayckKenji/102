@@ -19,12 +19,28 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:first-child{
-color: orange;
+color: whitesmoke;
 }
 nav a:nth-child(3){
-color: orange;
+color:whitesmoke;
 }
 nav a:hover{
-    color: blue;
+    color:orange;
     font-size: 20pt;
+}
+header{
+    width: 100%;
+    height: 160px;
+    color: blueviolet;
+    background-image: url(imagens/beluga.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+header h1{
+    margin-left: 60px;
+    margin-top: 60;
+    color: whitesmoke;
+
 }
